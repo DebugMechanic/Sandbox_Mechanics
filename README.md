@@ -29,7 +29,7 @@ Operating Systems Supported:
 
 ## Help:
 
-```c
+```
 Toolbox Build v1.0 -- By DebugMechanic
 
 Usage:
@@ -43,12 +43,12 @@ Press any key to continue . . .
 ## Usage:
 
 x64 Test :  
-```c
+```
 Toolbox.exe --exe "C:\Windows\notepad.exe" --dll "C:\Users\Administrator\Documents\visual studio 2013\Projects\Sandbox_Mechanics\x64\Debug\x64_UM_Tracer.dll"
 ```
 
 x86 Test : 
-```c   
+```
 Toolbox.exe --exe "C:\Program Files (x86)\HxD\HxD.exe" --dll “C:\Users\Administrator\Documents\visual studio 2013\Projects\Sandbox_Mechanics\Debug\x86_UM_Tracer.dll"
 ```
 
