@@ -16,7 +16,7 @@ If you're using Vista or above, the first Session, Session 0 is where all of the
 
 More Sessions than what I mentioned will occur anytime you have multiple users logged into the same machine. You can have multiple users logged into the same machine via Terminal Services, Remote Desktop, or multi user logins onto the same machine via switch-user. For each additional login operation that you make, a new Session is made.
 
-More information on Sessions can be found here:
+More information on Sessions can be found here:  
 https://brianbondy.com/blog/100/understanding-windows-at-a-deeper-level-sessions-window-stations-and-desktops
 
 
@@ -24,39 +24,39 @@ https://brianbondy.com/blog/100/understanding-windows-at-a-deeper-level-sessions
 ## Sandbox Mechanics Overview:
 
 
-Operating Systems Supported:
-	Windows 7   -- Supported.
-	Windows 10 -- Supported.
+Operating Systems Supported:  
+	Windows 7   -- Supported.  
+	Windows 10 -- Supported.  
 
 
 		
-Project: 	Sandbox_Mechanics	Solution
-Loader: 	Toolbox.exe	Master Interface Project
-x64_Injector	x64_Injector.exe	64 bit Injection Project
-x64_UM_Tracer	x64_UM_Tracer.dll	64 bit template tracer .dll Project
-x86_Injector	x86_Injector.exe	32 bit Injection Project
-x86_UM_Tracer	x86_UM_Tracer.dll	32 bit template tracer .dll Project
+Project: 	Sandbox_Mechanics	Solution  
+Loader: 	Toolbox.exe	Master Interface Project  
+x64_Injector	x64_Injector.exe	64 bit Injection Project  
+x64_UM_Tracer	x64_UM_Tracer.dll	64 bit template tracer .dll Project  
+x86_Injector	x86_Injector.exe	32 bit Injection Project  
+x86_UM_Tracer	x86_UM_Tracer.dll	32 bit template tracer .dll Project  
 
 Help:
 
 [code]Toolbox Build v1.0 -- By DebugMechanic
 
 Usage:
-        --help    : Print Usage...
-        --exe     : (Exe To Trace) -- Ex. C:\Victim_EXE_Location\Victim.exe
-        --dll     : (Tracer Dll)   -- Ex. C:\Custom_DLL_Location\Custom.dll
+        --help    : Print Usage...  
+        --exe     : (Exe To Trace) -- Ex. C:\Victim_EXE_Location\Victim.exe  
+        --dll     : (Tracer Dll)   -- Ex. C:\Custom_DLL_Location\Custom.dll  
 
 Press any key to continue . . .[/code]
 
 ## Usage:
 
-x64 Test :
+x64 Test :  
 Toolbox.exe --exe "C:\Windows\notepad.exe" --dll "C:\Users\Administrator\Documents\visual studio 2013\Projects\Sandbox_Mechanics\x64\Debug\x64_UM_Tracer.dll"
 
-x86 Test :
+x86 Test :  
 Toolbox.exe --exe "C:\Program Files (x86)\HxD\HxD.exe" --dll “C:\Users\Administrator\Documents\visual studio 2013\Projects\Sandbox_Mechanics\Debug\x86_UM_Tracer.dll"
 
 As you can see from the locations above. I used Visual Studio 2013.
 
-You will need the "Visual C++ Redistributable Packages for Visual Studio 2013" found here:
+You will need the "Visual C++ Redistributable Packages for Visual Studio 2013" found here:  
 https://www.microsoft.com/en-us/download/details.aspx?id=40784
