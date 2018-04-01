@@ -29,22 +29,28 @@ Operating Systems Supported:
 
 ## Help:
 
-[code]Toolbox Build v1.0 -- By DebugMechanic
+'''        
+Toolbox Build v1.0 -- By DebugMechanic
 
 Usage:
         --help    : Print Usage...  
         --exe     : (Exe To Trace) -- Ex. C:\Victim_EXE_Location\Victim.exe  
         --dll     : (Tracer Dll)   -- Ex. C:\Custom_DLL_Location\Custom.dll  
 
-Press any key to continue . . .[/code]
+Press any key to continue . . .
+'''        
 
 ## Usage:
 
 x64 Test :  
+'''        
 Toolbox.exe --exe "C:\Windows\notepad.exe" --dll "C:\Users\Administrator\Documents\visual studio 2013\Projects\Sandbox_Mechanics\x64\Debug\x64_UM_Tracer.dll"
+'''        
 
-x86 Test :  
+x86 Test : 
+'''        
 Toolbox.exe --exe "C:\Program Files (x86)\HxD\HxD.exe" --dll “C:\Users\Administrator\Documents\visual studio 2013\Projects\Sandbox_Mechanics\Debug\x86_UM_Tracer.dll"
+'''        
 
 As you can see from the locations above. I used Visual Studio 2013.
 
