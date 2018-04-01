@@ -1,6 +1,6 @@
 # Sandbox_Mechanics
 
-A gentle introduction to Sessions:
+##A gentle introduction to Sessions:
 
 Each program you have on your computer, when executed is considered a process. A process is a program which is being executed. Each process is the program code, a collection of threads, and other resources relating to the program.
 
@@ -21,7 +21,7 @@ https://brianbondy.com/blog/100/understanding-windows-at-a-deeper-level-sessions
 
 
 
-Sandbox Mechanics Overview:
+##Sandbox Mechanics Overview:
 
 
 Operating Systems Supported:
@@ -48,7 +48,7 @@ Usage:
 
 Press any key to continue . . .[/code]
 
-Usage:
+##Usage:
 
 x64 Test :
 Toolbox.exe --exe "C:\Windows\notepad.exe" --dll "C:\Users\Administrator\Documents\visual studio 2013\Projects\Sandbox_Mechanics\x64\Debug\x64_UM_Tracer.dll"
