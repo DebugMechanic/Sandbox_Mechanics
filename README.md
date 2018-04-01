@@ -21,8 +21,7 @@ https://brianbondy.com/blog/100/understanding-windows-at-a-deeper-level-sessions
 
 
 
-## Sandbox Mechanics Overview:
-
+# Sandbox Mechanics Overview:
 
 Operating Systems Supported:  
 	Windows 7   -- Supported.  
@@ -55,21 +54,21 @@ https://www.microsoft.com/en-us/download/details.aspx?id=40784
 ## File Layout
 
 Project:  
-	Sandbox_Mechanics --- Solution  
+> Sandbox_Mechanics --- Solution  
 	
 Loader:  	
-	Toolbox.exe --- Master Interface Project  
+> Toolbox.exe --- Master Interface Project  
 	
 x64_Injector:  
-	x64_Injector.exe --- 64 bit Injection Project  
+> x64_Injector.exe --- 64 bit Injection Project  
 	
 x64_UM_Tracer:  
-	x64_UM_Tracer.dll --- 64 bit template tracer .dll Project  
+> x64_UM_Tracer.dll --- 64 bit template tracer .dll Project  
 	
 x86_Injector:  
-	x86_Injector.exe --- 32 bit Injection Project  
+> x86_Injector.exe --- 32 bit Injection Project  
 	
 x86_UM_Tracer:  
-	x86_UM_Tracer.dll --- 32 bit template tracer .dll Project  
+> x86_UM_Tracer.dll --- 32 bit template tracer .dll Project  
 	
 
